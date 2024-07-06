@@ -13,7 +13,7 @@ import java.util.Optional;
 @Service
 public class PacienteServicio implements IProceso<Persona> {
 
-    private final List<Persona> pacientes = new ArrayList<Persona>();
+    private final List<Persona> pacientes = new ArrayList<>();
 
     @Override
     public ResponseEntity<String> registrar(Persona paciente) {
